@@ -92,7 +92,8 @@ body {
   grid-template-columns: repeat(10, 6.5rem);
   grid-template-rows: repeat(2, min-content);
   column-gap: 3rem;
-  row-gap: 4rem; }
+  row-gap: 4rem;
+  z-index: 1; }
   .header__heading {
     font-size: 8.8rem;
     font-weight: 700;
