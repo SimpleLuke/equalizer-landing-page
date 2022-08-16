@@ -1,0 +1,11 @@
+.logo {
+  grid-row: logo-start/logo-end;
+  grid-column: 2/-1;
+  padding-top: 6.2rem;
+}
+
+.bg-pattern--1 {
+  position: absolute;
+  top: -4rem;
+  right: 0;
+}

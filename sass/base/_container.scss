@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  grid-template-rows: [logo-start]20rem[logo-end header-start] min-content[header-end content-start] min-content [content-end footer-start] min-content[footer-end];
+  grid-template-columns: 1fr repeat(12, 6.5rem) 1fr;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  justify-items: start;
+
+  background-image: url(/img/bg-main-desktop.png);
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: -35.6rem -30rem;
+
+  position: relative;
+
+  padding-bottom: 9.1rem;
+}

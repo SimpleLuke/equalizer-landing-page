@@ -1,0 +1,30 @@
+.footer {
+  grid-row: footer-start/footer-end;
+  grid-column: 2/13;
+
+  margin-top: 20.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(12, 6.5rem);
+  grid-template-rows: min-content;
+  column-gap: 3rem;
+
+  &__logo {
+    grid-column: 1/2;
+  }
+
+  .copyright {
+    grid-column: 4/8;
+  }
+
+  .social-icons {
+    grid-column: -2/-1;
+    align-self: center;
+
+    display: flex;
+
+    & > *:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+}
