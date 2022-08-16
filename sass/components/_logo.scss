@@ -2,10 +2,18 @@
   grid-row: logo-start/logo-end;
   grid-column: 2/-1;
   padding-top: 6.2rem;
+  @include respond(phone) {
+    margin-left: 2.45rem;
+  }
 }
 
 .bg-pattern--1 {
   position: absolute;
-  top: -4rem;
+  top: -4px;
   right: 0;
+
+  @include respond(phone) {
+    display: none;
+    padding-left: 2.45rem;
+  }
 }
